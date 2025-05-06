@@ -9,3 +9,4 @@ def home():
 @app.route('/<path:path>')
 def static_files(path):
     return send_from_directory('static', path)
+    
